@@ -4,7 +4,9 @@
   }
   
   body {
-    background-color: #eee;
+    background-color: grey;
+    background-image: url("dragonballzak.gif");
+    background-size: 100%;
 
   }
   
@@ -38,11 +40,21 @@
 
 H1{
 text-align: center;
-color: black;
+color: white;
 }
 
 H3{
     text-align: center;
-    color: black;
+    color: white;
 }
-  
+ img{
+        text-align: center;
+ }
+
+.ROC{
+    font-size: 30px;
+}
+
+.Blackops2{
+    font-size: 30px;
+}
