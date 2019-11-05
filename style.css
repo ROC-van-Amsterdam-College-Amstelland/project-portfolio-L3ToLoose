@@ -19,10 +19,6 @@
     background-repeat: no-repeat;
   }
   
-  ul {
-  
-  }
-  
   ul li {
   list-style: none;
   display: inline-block;
@@ -90,8 +86,14 @@ html{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#vaardigheden{
+.vaardigheden{
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
+
+.like{
+  color: red;
+  
+}
+
 
