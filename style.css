@@ -77,3 +77,14 @@ h2{
   color: aquamarine;
   font-size: 30px;
 }
+
+html{
+  background-image: url("dragonballzak.gif");
+  background-size: 100%;
+}
+
+#Contact{
+  color: rgb(0, 15, 224);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
