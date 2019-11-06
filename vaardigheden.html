@@ -18,11 +18,53 @@
             </ul>
         </nav>
         <div class="vaardigheden">
-        <h1>De programeertalen die ik kan zijn HTML, CSS en Javscript</h1>
-        <h1>Ik heb deze site als voorbeeld van mijn HTML en CSS werkt. En die javascript box die ik als voorbeeld heb gebruikt.</h1>
-        <h1>De schriftelijke talen die ik beheerst zijn Nederlands en Engels</h1>
-        <h1>De programma's waarmee ik kan werken zijn VSC, Google,Office, Word, Exel etc.</h1>
-        </div>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                * {box-sizing: border-box}
+                
+                .container {
+                  width: 100%;
+                  background-color: #ddd;
+                }
+                
+                .skills {
+                  text-align: right;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  color: white;
+                }
+                
+                .html {width: 70%; background-color: #4CAF50;}
+                .css {width: 70%; background-color: #2196F3;}
+                .js {width: 50%; background-color: #f44336;}
+                .php {width: 80%; background-color: #808080;}
+                </style>
+                </head>
+                <body>
+                
+                <h1>My Skills</h1>
+                
+                <p>HTML</p>
+                <div class="container">
+                  <div class="skills html">70%</div>
+                </div>
+                
+                <p>CSS</p>
+                <div class="container">
+                  <div class="skills css">70%</div>
+                </div>
+                
+                <p>JavaScript</p>
+                <div class="container">
+                  <div class="skills js">50%</div>
+                </div>
+                
+                <p>VSC</p>
+                <div class="container">
+                  <div class="skills php">80%</div>
+                </div>
+                
+                </body>
         <script>
             var strNaam = prompt("voorbeeld van een javascript.vul uw naam in")
             alert("jouw naam is " + strNaam) ;

@@ -34,11 +34,6 @@
   padding: 0 20px;
   }
 
-H1{
-text-align: center;
-color: white;
-}
-
 H3{
     text-align: center;
     color: white;
@@ -80,11 +75,12 @@ html{
   background-size: 100%;
 }
 
-#Contact{
-  color: rgb(0, 15, 224);
-  font-size: 30px;
+.Contact{
+  color: black
+  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
-}
+  justify-content: center;
+  }
 
 .vaardigheden{
   font-family: Arial, Helvetica, sans-serif;
@@ -94,10 +90,6 @@ html{
 .like{
   color: red;
   
-}
-
-.Contact{
-  color: red;
 }
 
 .like{
@@ -115,11 +107,29 @@ html{
   font-size: 40px;
 }
 
-.countD{
-  color: red;
+p{
   font-size: 40px;
+  color: white;
+}
+
+li{
+  align-items: center;
+  color: red;
+}
+
+#linked{
+  color:black;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
 }
 
 .time{
-  align-items:
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: black;
+  text-align: center;
 }
