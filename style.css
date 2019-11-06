@@ -70,7 +70,7 @@ h2{
   text-align: center;
 }
 
-#overmij{
+.overmij{
   color: aquamarine;
   font-size: 30px;
 }
@@ -96,4 +96,30 @@ html{
   
 }
 
+.Contact{
+  color: red;
+}
 
+.like{
+  color: green;
+  font-size: 40px;
+}
+
+.social-dislike{
+  color: red;
+  font-size: 40px;
+}
+
+.countL{
+  color: green;
+  font-size: 40px;
+}
+
+.countD{
+  color: red;
+  font-size: 40px;
+}
+
+.time{
+  align-items:
+}
